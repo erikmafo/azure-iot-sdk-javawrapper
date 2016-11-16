@@ -12,14 +12,14 @@ The javamodule is built as a wrapper around the native C SDK.
 
 ## Application development guidelines
 For more information on how to use this library refer to the documents below:
-- [Preparing your development environment](../doc/get_started/javawrapper-devbox-setup.md)
-- [Running the java samples on Windows](../doc/get_started/javawrapper-run-sample-on-windows.md)
-- [Running the java samples on Linux](../doc/get_started/javawrapper-run-sample-on-linux.md)
+- [Preparing your development environment](doc/get_started/javawrapper-devbox-setup.md)
+- [Running the java samples on Windows](doc/get_started/javawrapper-run-sample-on-windows.md)
+- [Running the java samples on Linux](doc/get_started/javawrapper-run-sample-on-linux.md)
 
 
 Other useful documents include:
-- [Setup IoT Hub](../doc/setup_iothub.md)
-- [Provision devices](../doc/manage_iot_hub.md)
+- [Setup IoT Hub](doc/setup_iothub.md)
+- [Provision devices](doc/manage_iot_hub.md)
 
 ## Folder structure of repository
 
@@ -28,12 +28,12 @@ All the java wrapper device specific resources are located in the **javawrapper*
 ### /build_all
 
 This folder contains build scripts for the java wrapper client libraries on windows and linux.
- * To build for Windows execute \javawrapper\build_all\windows\build_client.cmd 
- * To build for Linux execute \javawrapper\build_all\windows\build.sh
+ * To build for Windows execute \build_all\windows\build_client.cmd 
+ * To build for Linux execute \build_all\windows\build.sh
 The javawrapper library can be found at:
 
 ```
-  {IoT device SDK root}/javawrapper/device/target/iothub_client_javawrapper-{version}.jar
+  {IoT device SDK root}/device/target/iothub_client_javawrapper-{version}.jar
 
   ```
 

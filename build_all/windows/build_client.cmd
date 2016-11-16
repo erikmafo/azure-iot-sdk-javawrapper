@@ -15,7 +15,7 @@ call :checkExists mvn
 if not !ERRORLEVEL!==0 exit /b !ERRORLEVEL!
 
 REM -- C --
-cd ..\..\..\c\build_all\windows
+cd ..\..\c\build_all\windows
 
 :args-loop
 if "%1" equ "" goto args-done
@@ -45,7 +45,7 @@ if %use-websockets% == ON (
 )
 
 :delete
-del ..\..\..\javawrapper\device\iothub_client_javawrapper\windows\iothub_client_javawrapper_temp.def
+del ..\..\..\device\iothub_client_javawrapper\windows\iothub_client_javawrapper_temp.def
 
 :args-continue
 if not !ERRORLEVEL!==0 goto :eof

@@ -17,25 +17,25 @@ compileAsC99()
 
 if(${use_wsio})
     set(iothub_client_c_files
-    ../../../c/iothub_client/src/iothub_client.c
-    ../../../c/iothub_client/src/iothub_client_ll.c
-    ../../../c/iothub_client/src/iothub_message.c
-    ../../../c/iothub_client/src/iothubtransportamqp_websockets.c
-    ../../../c/iothub_client/src/iothubtransportamqp_auth.c
-    ../../../c/iothub_client/src/iothubtransporthttp.c
-    ../../../c/iothub_client/src/iothubtransportmqtt.c
-    ../../../c/iothub_client/src/version.c
+    ../../c/iothub_client/src/iothub_client.c
+    ../../c/iothub_client/src/iothub_client_ll.c
+    ../../c/iothub_client/src/iothub_message.c
+    ../../c/iothub_client/src/iothubtransportamqp_websockets.c
+    ../../c/iothub_client/src/iothubtransportamqp_auth.c
+    ../../c/iothub_client/src/iothubtransporthttp.c
+    ../../c/iothub_client/src/iothubtransportmqtt.c
+    ../../c/iothub_client/src/version.c
     )
 else()
     set(iothub_client_c_files
-    ../../../c/iothub_client/src/iothub_client.c
-    ../../../c/iothub_client/src/iothub_client_ll.c
-    ../../../c/iothub_client/src/iothub_message.c
-    ../../../c/iothub_client/src/iothubtransportamqp.c
-	../../../c/iothub_client/src/iothubtransportamqp_auth.c
-    ../../../c/iothub_client/src/iothubtransporthttp.c
-    ../../../c/iothub_client/src/iothubtransportmqtt.c
-    ../../../c/iothub_client/src/version.c
+    ../../c/iothub_client/src/iothub_client.c
+    ../../c/iothub_client/src/iothub_client_ll.c
+    ../../c/iothub_client/src/iothub_message.c
+    ../../c/iothub_client/src/iothubtransportamqp.c
+	../../c/iothub_client/src/iothubtransportamqp_auth.c
+    ../../c/iothub_client/src/iothubtransporthttp.c
+    ../../c/iothub_client/src/iothubtransportmqtt.c
+    ../../c/iothub_client/src/version.c
     )
 endif()
 

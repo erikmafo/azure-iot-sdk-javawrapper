@@ -1,5 +1,5 @@
 
-# Run sample on Windows
+# Run sample on Linux
 
  * execute \build_all\windows\build.sh
  * Start a new instance of the Device Explorer, 
